@@ -10,7 +10,7 @@ from proxyall import *
 from vipp import checkvip
 from random_user import geninfo
 from mchk import new_func,get_response_mchk
-tok = "8104191497:AAEOLdImuTIn_7RNoZW49STbdqxMwWns8cQ"
+tok = "7740237222:AAEUJJBK7iLOMYTsox9epp7iG2unPQvYXmY"
 bot=telebot.TeleBot(tok)
 @bot.message_handler(commands=['start'])
 def run(message):
